@@ -1,0 +1,286 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+background: #f6f6f6;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+
+width: 8px;
+
+}
+
+body::-webkit-scrollbar-track{
+	border:1px solid grey;
+	height: 10px;
+}
+
+body::-webkit-scrollbar-thumb{
+
+background:  linear-gradient(120deg , transparent , #5f27cd);
+}
+
+.Equipment{
+	border-right:2px solid #fff;
+	border-bottom-left-radius: 5px solid #f6f6f6;
+	transition: all .3s;
+}
+
+.Equipment:hover{
+	transform: scale(1.2);}
+
+.Enpalenment{
+	border-left:2px solid #fff;
+	border-bottom-left-radius: 5px solid #f6f6f6;
+	transition: all .3s;
+}
+
+	.Enpalenment:hover{
+	transform: scale(1.2);}
+
+	.Our_clients{
+	border-left:2px solid #fff;
+	border-bottom-left-radius: 5px solid #f6f6f6;
+	transition: all .3s;
+
+}
+
+	.Our_clients:hover{
+	transform: scale(1.2);
+border-radius: 0px;}
+
+
+
+	.Contacts{
+	border-left:2px solid #fff;
+	border-bottom-left-radius: 5px solid #f6f6f6;
+	transition: all .3s;
+
+}
+
+	.Contacts:hover{
+	transform: scale(1.2);
+border-radius: 0px;}
+
+@media(max-width: 768px){
+
+	.services p{
+	line-height: 10px!important;
+	margin-left:  10px;
+}
+
+
+	nav img {
+		width: 100%;
+	}
+
+	figure{
+width: 100px!important; height: 100px!important;
+border-right-style: 1px solid black;
+}
+
+
+.one{
+	height: 150px!important;
+	
+	width : 90vw!important;
+
+
+	border:2px solid black;
+	border-radius: 20px;
+	margin-bottom: 15px;
+
+
+}
+
+.one figure{
+	margin-left: 15px;
+}
+
+.one figure:nth-child(0){
+	margin-left: 10px!important;
+}
+.one figure:nth-child(1){
+	margin-left: 20px!important;
+}
+
+}
+
+figure{
+width: 150px; height: 150px;
+}
+
+
+figure img {
+	height: 100%; width: 100%; border:5px solid #ddd; border-radius: 15px; object-fit: cover;
+	-webkit-box-shadow: 24px 2px 13px -17px rgba(0,0,0,0.75);
+-moz-box-shadow: 24px 2px 13px -17px rgba(0,0,0,0.75);
+box-shadow: 24px 2px 13px -17px rgba(0,0,0,0.75);
+transition: all .1s linear;
+
+}
+
+figure img:hover{
+	border:3px solid blue;
+}
+figcaption {
+	color: skyblue;
+	font-weight: bolder;
+	font-size: 18px;
+	text-align: center;
+}
+
+figcaption:hover{ 
+color : blue; }
+
+.one{
+	height: 200px;
+	
+	width : 50vw;
+
+
+	border:2px solid black;
+	border-radius: 20px;
+-webkit-box-shadow: -9px -8px 14px -5px rgba(0,0,0,0.75);
+-moz-box-shadow: -9px -8px 14px -5px rgba(0,0,0,0.75);
+box-shadow: -9px -8px 14px -5px rgba(0,0,0,0.75);
+
+}
+.one a {
+display: flex; align-items: center;
+height: 100%;
+
+}
+
+
+.one ul li {
+	list-style: none;
+}
+
+.sectors::-webkit-scrollbar{
+width: 3px;
+
+}
+.secon{
+background-color: skyblue;
+font-weight: bolder;
+padding: 10px;
+border-radius: 25px;
+
+
+}
+
+.services p{
+	line-height: 5px;
+	margin-left:  10px;
+}
+
+.row h4{
+	padding: 5px;
+}
+
+.services{
+	height: 300px;
+	width: 30vw;
+	border:.5px solid #333;
+	border-radius: 20px;
+	overflow: auto;
+	font-family: sans-serif;
+
+}
+
+.new_project{
+
+background-image: url('https://www.peoplemanagement.co.uk/Images/friday-feeling-primary-feature_tcm27-65976_w1228_n.jpg');
+		background-repeat: no-repeat;
+	background-size: 100% 100%;
+
+	border:2px solid #fff;
+	border-radius: 20px;
+
+}
+
+.services::-webkit-scrollbar{
+width: 15px;
+height: 10px;
+}
+
+.services::-webkit-scrollbar-track{
+border:0px;
+	height: 10px;
+}
+
+.services::-webkit-scrollbar-thumb{
+
+	background: linear-gradient(45deg,#e67e22 , transparent);
+}
+
+ .btn-group{
+      padding: 10px;
+    }
+
+
+nav{
+  -webkit-box-shadow: -2px 8px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 8px 5px 0px rgba(0,0,0,0.75);
+box-shadow: -2px 8px 5px 0px rgba(0,0,0,0.75);
+}
+
+footer{ 
+	border-top: 1px solid #333;
+	
+	  height: 250px;}
+.projects{
+	animation: p .7s infinite;
+
+}
+@keyframes p {
+
+	0%{
+		color: blue;
+	}
+	20%{
+		color: lime;
+	}
+	40%{
+		color: yellow;
+	}
+	60%{
+		color: blue;
+	}
+	80%{
+		color: lime;
+	}
+}
+
+.cnt {display:flex;
+  justify-content: center; 
+	flex-direction: column;
+	height: 90vh; width: 100vw; 
+	background: #192a56;
+}
+
+.contact{
+	display: none;
+	transition: all 2s linear;
+}
+
+.contact h5 , h6 ,h2{
+
+	background: #192a56;
+	color: #f6f6f6;
+}
+
+.details {display:flex;
+  justify-content: center; 
+	flex-direction: column;
+	height: 90vh; width: 100vw; background: #192a56;
+}
+
+.details h6 ,h2{
+	background: #192a56;
+}
